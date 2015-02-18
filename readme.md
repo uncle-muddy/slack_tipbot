@@ -156,6 +156,7 @@ This has been tested w/
 * florincoin
 * doge
 * zeta
+* ftc
 
 Please let me know when you try it with other coins so that I can update the list. 
 

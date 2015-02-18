@@ -56,15 +56,15 @@ class Command
       fallback:"<@#{@user_id}> => <@#{target_user}> #{@amount}Ð",
       color: "good",
       fields: [{
-        title: "such tipping #{@amount}Ð wow!",
-        value: "http://dogechain.info/tx/#{tx}",
+        title: "tipping #{@amount}f",
+        value: "http://explorer.feathercoin.com/tx/#{tx}",
         short: false
       },{
-        title: "generous shibe",
+        title: "from",
         value: "<@#{@user_id}>",
         short: true
       },{
-        title: "lucky shibe",
+        title: "to",
         value: "<@#{target_user}>",
         short: true
       }]
